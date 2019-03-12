@@ -10,6 +10,10 @@ namespace Galois
     {
         static void Main(string[] args)
         {
+            Board a = new Board();
+            foreach (var item in a.tiles)
+                Console.WriteLine(item.ToString());
+            Console.Read();
         }
     }
 }
